@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+
+    <meta name="description" content="PHP Module 6 Assignment">
+    <meta name="keywords" content="PHP, Assignment">
+    <meta name="author" content="Niko Lavikainen">
+
+    <title>PHP Module 6 Assignment</title>
+    <link rel="stylesheet" type="text/css" href="module6styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>PHP Module 6 Assignment</h1>
+</header>
+<main>
+    <form method="post" action="module6script.php">
+
+
+        <fieldset>
+            <legend>Contact information</legend>
+            <p>
+                <label for="firstname" class="contact">First name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </p>
+
+            <p>
+                <label for="lastname" class="contact">Last name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </p>
+
+            <p>
+                <label for="age" class="contact">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="99" step="1" required>
+                <!-- wouldn't min="16" work here? -->
+            </p>
+
+            <p>
+                <label for="username" class="contact">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Send" id="submit" name="submit">
+            <input type="reset" value="Clear" id="reset" name="reset">
+        </p>
+    </form>
+</main>
+</body>
+
+</html>

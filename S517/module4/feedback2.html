@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <!-- Script 3.2 - feedback.html -->
+    <div>
+        <header>
+            <h1>Feedback form</h1>
+            <!--for the accessability-->
+            <p>Please complete this form to submit your feedback:</p>
+        </header>
+
+        <form action="handle_form2.php" method="post">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <p><label for="name">Name</label> and <label for="title">title</label>: <select id="title" name="title"
+                        required>
+                        <option value="Mr.">Mr.</option>
+                        <option value="Mrs.">Mrs.</option>
+                        <option value="Ms.">Ms.</option>
+                    </select>
+                    <input type="text" id="name" name="name" size="20" required>
+                </p>
+
+                <p><label for="email">Email Address: </label><input type="email" id="email" name="email" size="20"
+                        required></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferences</legend>
+                <p><label for="color">Favourite Colour: </label><input type="text" id="color" name="color" size="20"
+                        required></p>
+                <p><label for="food">Favourite Food: </label><input type="text" id="food" name="food" size="20"
+                        required></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Feedback</legend>
+                <p>Response: This is...
+                    <input type="radio" id="excellent" name="response" value="excellent" required><label
+                        for="excellent"> excellent</label>
+                    <input type="radio" id="okay" name="response" value="okay"><label for="okay"> okay</label>
+                    <input type="radio" id="boring" name="response" value="boring"><label for="boring"> boring</label>
+                </p>
+                <p><label for="comments">Comments: </label><textarea id="comments" name="comments" rows="3" cols="30"
+                        required></textarea></p>
+            </fieldset>
+
+            <input type="submit" name="submit" value="Send My Feedback">
+
+        </form>
+    </div>
+</body>
+
+</html>

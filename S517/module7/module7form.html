@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- technical meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+
+    <!-- informational meta -->
+    <meta name="description" content="PHP Module 7 Assignment">
+    <meta name="keywords" content="PHP, Assignment">
+    <meta name="author" content="Niko Lavikainen">
+
+    <!-- title and style -->
+    <title>PHP Module 7 Assignment</title>
+    <link rel="stylesheet" type="text/css" href="module7styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PHP Module 7 Assignment</h1>
+    </header>
+    <main>
+        <form method="post" action="module7script.php">
+
+            <fieldset>
+                <legend>Preferred days and seasons</legend>
+                <p> <!-- Name, required -->
+                    <label for="firstname" class="contact">First name:</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </p>
+
+                <p> <!--Tickboxes for weekdays -->
+                    Please select your preferred day(s):<br>
+                    <input type="checkbox" id="monday" value="Monday" name="days[]">
+                    <label for="monday">Monday</label>
+                    <input type="checkbox" id="tuesday" value="Tuesday" name="days[]">
+                    <label for="tuesday">Tuesday</label>
+                    <input type="checkbox" id="wednesday" value="Wednesday" name="days[]">
+                    <label for="wednesday">Wednesday</label>
+                    <input type="checkbox" id="thursday" value="Thursday" name="days[]">
+                    <label for="thursday">Thursday</label>
+                    <input type="checkbox" id="friday" value="Friday" name="days[]">
+                    <label for="friday">Friday</label>
+                    <input type="checkbox" id="saturday" value="Saturday" name="days[]">
+                    <label for="saturday">Saturday</label>
+                    <input type="checkbox" id="sunday" value="Sunday" name="days[]">
+                    <label for="sunday">Sunday</label> <!-- It's part of the weekend so it should be at the end of the week. -->
+                </p>
+
+                <p> <!--Tickboxes for seasons -->
+                    Please select your preferred season(s):<br>
+                    <input type="checkbox" id="spring" value="Spring" name="seasons[]">
+                    <label for="spring">Spring</label>
+                    <input type="checkbox" id="summer" value="Summer" name="seasons[]">
+                    <label for="summer">Summer</label>
+                    <input type="checkbox" id="autumn" value="Autumn" name="seasons[]">
+                    <label for="autumn">Autumn</label> <!-- Yes, it's slippery, but we don't actually want to fall -->
+                    <input type="checkbox" id="winter" value="Winter" name="seasons[]">
+                    <label for="winter">Winter</label>
+                </p>
+
+            </fieldset>
+
+            <p> <!-- Submit and reset buttons -->
+                <input type="submit" value="Send" id="submit" name="submit">
+                <input type="reset" value="Clear" id="reset" name="reset">
+            </p>
+        </form>
+    </main>
+</body>
+
+</html>
