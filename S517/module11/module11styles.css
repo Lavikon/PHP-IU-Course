@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    padding-top: 100px;
     color: black;
 }
 
@@ -87,13 +86,15 @@ footer a:hover {
 /* Small screen */
 .sm {
     display: none;
-  }
-@media only screen  and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
     .sm {
         display: block;
-      }
+    }
+
     .lg {
         display: none;
-      }
-      
+    }
+
 }

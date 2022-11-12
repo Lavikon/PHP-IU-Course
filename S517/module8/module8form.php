@@ -1,6 +1,8 @@
 <?php
 // actually just the <head> and other top of the page code, not the <header>
-include('header.html');
+include('header8.html');
+//  the navbar
+include('../navbar.html');
 ?>
 
 <!-- This would be a great place to include 'navbar.html' -->
@@ -53,5 +55,5 @@ include('header.html');
 </main>
 
 <?php
-include('footer.html');
+include('../footer.html');
 ?>
