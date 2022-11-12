@@ -2,7 +2,7 @@
 //  the <head>
 include('header11.html');
 //  the navbar
-include('../navbar.html');
+include('../shared/navbar.html');
 ?>
 <header id="top">
         <h1>Search</h1>
@@ -73,5 +73,5 @@ include('../navbar.html');
 </main>
 
 <?php
-include('../footer.html');
+include('../shared/footer.html');
 ?>

@@ -2,7 +2,7 @@
 //  the <head>
 include('header9.html');
 //  the navbar
-include('../navbar.html');
+include('../shared/navbar.html');
 ?>
 
 <!-- The actual <header> -->
@@ -105,5 +105,5 @@ include('../navbar.html');
     </form>
 </main>
 <?php
-include('../footer.html');
+include('../shared/footer.html');
 ?>

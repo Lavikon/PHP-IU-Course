@@ -1,0 +1,101 @@
+/*Alright, this time I'll use some actual styles I wrote myself, 
+but I'm still lazy so some of the commentary is going to be in finnish*/
+
+/*elementit*/
+body {
+    color: lightgrey;
+    background-color: rgb(35, 35, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: url(../img/bg1.jpg); NOT USED
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* pysyy kohdallaan */
+}
+
+header {
+    padding-top: 100px;
+    color: black;
+}
+
+h1 {
+    text-shadow: 1px 2px 3px black;
+    color: red;
+}
+
+/* form */
+fieldset {
+    border: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #fff;
+    background-color: #000;
+    padding: 2px 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    background-color: rgb(172, 172, 172);
+}
+
+input[type="text"] {
+    width: 15em;
+}
+
+textarea {
+    width: 90%;
+    height: 10em;
+}
+
+/* linkkien sijainti palkissa float */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* footer style */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+footer a,
+footer div {
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+}
+
+footer a:hover {
+    background-color: #111;
+}
+
+/* Small screen */
+.sm {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .sm {
+        display: block;
+    }
+
+    .lg {
+        display: none;
+    }
+
+}

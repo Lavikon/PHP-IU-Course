@@ -2,7 +2,7 @@
 //  the <head>
 include('header12.html');
 //  the navbar
-include('../navbar.html');
+include('../shared/navbar.html');
 ?>
 <header id="top">
         <h1>View Entries</h1>
@@ -58,5 +58,5 @@ include('../navbar.html');
 </main>
 
 <?php
-include('footer.html');
+include('../shared/footer.html');
 ?>

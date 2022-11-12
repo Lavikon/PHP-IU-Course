@@ -17,23 +17,23 @@
 <body>
 
     <p><?php
-    $first = htmlentities($_POST["firstname"]);
-    $last = htmlentities($_POST["lastname"]);
-    $city = htmlentities($_POST["city"]);
-    echo "Welcome to the site, $first $last of <b><i>$city</i></b>.";
-    ?>
+        $first = htmlentities($_POST["firstname"]);
+        $last = htmlentities($_POST["lastname"]);
+        $city = htmlentities($_POST["city"]);
+        echo "Welcome to the site, $first $last of <b><i>$city</i></b>.";
+        ?>
     </p>
 
     <p><?php
-    $email = htmlentities($_POST["email"]);
-    echo "Your email of $email has been registered."; 
-    ?> 
+        $email = htmlentities($_POST["email"]);
+        echo "Your email of $email has been registered.";
+        ?>
     </p>
 
     <p><?php
-    $edu = htmlentities($_POST["education"]);
-    echo "Your education is: $edu"; 
-    ?>
+        $edu = htmlentities($_POST["education"]);
+        echo "Your education is: $edu";
+        ?>
     </p>
 
 </body>

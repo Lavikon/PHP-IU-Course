@@ -2,7 +2,7 @@
 //  the <head>
 include('header10.html');
 //  the navbar
-include('../navbar.html');
+include('../shared/navbar.html');
 ?>
 <header id="top">
         <h1>View Entries</h1>

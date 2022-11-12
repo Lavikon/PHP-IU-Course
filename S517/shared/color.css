@@ -1,0 +1,25 @@
+/*elementit*/
+body {
+    color: black;
+    background-color: lightgray;
+    /* pysyy kohdallaan */
+}
+/* space for the bg image */
+header {
+    color: black;
+}
+/* main element specs */
+main {
+    background-color: rgba(122, 122, 122, 0.5);
+    box-shadow: 2px 4px 8px grey;
+}
+article {
+    background-color: rgba(180, 200, 200, 0.5);
+    border: darkgray 3px solid;
+    /*box-shadow: 2px 4px 8px grey;*/
+}
+
+h1 {
+    text-shadow: 1px 2px 3px black;
+    color: red;
+}
