@@ -7,7 +7,7 @@
 <body>
 <?php // Script 12.2 - mysqli_connect.php #2
 /* This script connects to the MySQL database. */
-require_once('dbconnection.php'); // or '../dbconnection.php'
+require_once('dbconnection.php'); //external safe location for the $localhost, $username, $password, $database values
 // Attempt to connect to MySQL and print out messages:
 if ($dbc = @mysqli_connect($localhost, $username, $password, $database)) {
 
