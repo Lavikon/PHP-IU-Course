@@ -53,7 +53,7 @@ $dbc = mysqli_connect($localhost, $username, $password, $database);
         ('Accessing and Retrieving Data from Databases (2)','Feedback and SQL Injection prevention','../module11/module11search.php'),
         ('Accessing and Retrieving Data from Databases (3)','Retrieving data via SQL','../module12/module12search.php'),
         ('Accessing and Retrieving Data from Databases (4)','Exporting and importing data','../module13/module13search.php'),
-        ('Formatting Output from Databases Retrievals','Final project progress Discussion','#'),
+        ('Formatting Output from Databases Retrievals','Final project progress Discussion and Data upload','../module14/module14upload.php'),
         ('Completion of Final Project','Completion of final project','../module15/module15search.php');
         ";
         if (mysqli_query($dbc, $query)) {
