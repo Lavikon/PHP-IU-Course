@@ -89,7 +89,7 @@ footer a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1070px) {
     .sm {
         display: block;
     }
